@@ -18,6 +18,6 @@ const puppeteer = require('puppeteer');
     })
   })
   console.log(results)
-  // await browser.close();
+  await browser.close();
 
 })();
